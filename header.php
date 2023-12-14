@@ -90,8 +90,8 @@
                 echo "<div class='col' style='text-align: center; margin-top: 40px;'><a href='index.php?act=thoat'><input type='button' value='Đăng Xuất' style='border: none; background-color: #1976D2; padding: 10px; border-radius: 10px; color: white; font-weight: bold;'></a></div>";
             } else {
             ?>
-                <div class="col" style="text-align: center; margin-top: 40px;"><a href="signin_gia_huy.php"><input type="button" value="Đăng nhập" style="border: none; background-color: #1976D2; padding: 10px; border-radius: 10px; color: white; font-weight: bold;"></a></div>
-                <div class="col-sm-1" style="text-align: center; margin-top: 40px;"><a href="signup_gia_huy.php"><input type="button" value="Đăng ký" style="border: none; background-color: #1976D2; padding: 10px; border-radius: 10px; color: white; font-weight: bold;"></a></div>
+                <div class="col" style="text-align: center; margin-top: 40px;"><a href="signin.php"><input type="button" value="Đăng nhập" style="border: none; background-color: #1976D2; padding: 10px; border-radius: 10px; color: white; font-weight: bold;"></a></div>
+                <div class="col-sm-1" style="text-align: center; margin-top: 40px;"><a href="signup.php"><input type="button" value="Đăng ký" style="border: none; background-color: #1976D2; padding: 10px; border-radius: 10px; color: white; font-weight: bold;"></a></div>
             <?php } ?>
         </div>
     </div>

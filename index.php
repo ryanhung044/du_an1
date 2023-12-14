@@ -29,20 +29,20 @@ if (isset($_GET['act'])) {
                 if ($email == $one_email['email']) {
                     $err = "Email đã tồn tại";
                     // header("location:sigup_gia_huy.php?err=" . $err);
-                    header("location:signup_gia_huy.php?err=" . $err);
+                    header("location:signup.php?err=" . $err);
                     echo "Email đã tồn tại";
                 } elseif ((filter_var($email, FILTER_VALIDATE_EMAIL) === false)) {
                     $err = "Email không đúng định dạng";
-                    header("location:signup_gia_huy.php?err=" . $err);
+                    header("location:signup.php?err=" . $err);
                     echo "Email không đúng định dạng";
                 } else if ($username == $one_user['username']) {
                     $err = "username đã tồn tại";
-                    header("location:signup_gia_huy.php");
+                    header("location:signup.php");
                     echo "Tên đăng nhập đã tồn tại";
                 } else {
                     insert_user($email, $username, $password);
                     $thongbao = "Đăng kí tài khoản thành công";
-                    header("location:signin_gia_huy.php?err=" . $thongbao);
+                    header("location:signin.php?err=" . $thongbao);
                     die;
                 }
             }
@@ -67,7 +67,7 @@ if (isset($_GET['act'])) {
                     }
                 } else {
                     $err = "Tài khoản hoặc mật khẩu không đúng !";
-                    header("location:signin_gia_huy.php");
+                    header("location:signin.php");
                     die;
                 }
             }

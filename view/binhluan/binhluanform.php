@@ -47,7 +47,7 @@ $dsbl = loadall_binhluan($product_id);
         <?php
         } else {
             // include "../../index.php";
-            echo 'Vui lòng đăng nhập <a href="signin_gia_huy.php">Tại đây</a> để bình luận !';
+            echo 'Vui lòng đăng nhập <a href="signin.php">Tại đây</a> để bình luận !';
         }
         ?>
     </div>
