@@ -1,0 +1,688 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+
+:root {
+    --font-family: "Roboto";
+}
+
+body {
+    background: #ECEFF1;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.hea {
+    width: 100%;
+    height: 50px;
+    background-color: red;
+}
+
+.mr20 {
+    margin: 2% 0;
+}
+
+.mr10 {
+    margin: 1% 0;
+}
+
+.m-jc {
+    width: 100%;
+    height: 41px;
+}
+
+span {
+    position: relative;
+    /* top: 10px; */
+}
+
+.m-jc .m-js {
+    line-height: 29px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.m-js a {
+    padding: 8px;
+    text-decoration: none;
+    color: black;
+    font-family: var(--font-family);
+}
+
+
+
+.row {
+    width: 1200px;
+    height: auto;
+    background-color: #fff;
+    display: flex;
+}
+
+.main {
+    height: 60%;
+    margin-top: 20px;
+    position: relative;
+    margin-bottom: 15px;
+    border-radius: 5px;
+}
+
+.img_feature {
+    width: 100%;
+    margin-top: 15px;
+    /* margin-top: 50px; */
+}
+
+.list_img {
+    border: 1px solid #fff;
+    min-width: 100%;
+    /* height: 15%; */
+    display: flex;
+    justify-content: space-between;
+    margin-left: 8px;
+    cursor: pointer;
+
+}
+
+.list_img div {
+    flex: 1 0 0;
+    padding: 2px;
+}
+
+.list_img img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+.control {
+    position: absolute;
+    top: 50%;
+    font-size: 20px;
+    color: rgb(79, 75, 75);
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.prev {
+    left: 5px;
+}
+
+.next {
+    right: 5px;
+}
+
+.active {
+    background: #ccc;
+}
+
+.row .slideshow {
+    width: 33.33%;
+    height: auto;
+    background-color: #fff;
+    margin-right: 30px;
+    margin-left: 5px;
+}
+
+h1 {
+    margin-bottom: 15px;
+}
+
+.products_content {
+    width: 65%;
+
+}
+
+.tendg_sp {
+    padding-top: 10px;
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+    flex: 1;
+}
+
+h1 {
+    white-space: nowrap;
+}
+
+.tendg_sp .icon {
+    margin-top: 10px;
+
+}
+
+.icon {
+    width: 98%;
+}
+
+.icon i {
+    color: #FF9800;
+    width: 18px;
+    height: 18px;
+}
+
+.icon a {
+    text-decoration: none;
+    font-size: 16px;
+    font-family: var(--font-family);
+}
+
+.line {
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 8px;
+    border-bottom: 1px solid #Ccc;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+
+}
+
+.giasp {
+    display: flex;
+}
+
+.button_gh {
+    /* border: none;
+  outline: none; */
+    padding: 15px 10px;
+    width: 100%;
+    display: flex;
+}
+
+.button_gh button {
+    border: none;
+    outline: none;
+    width: 340px;
+    height: 50px;
+    text-align: center;
+
+}
+
+.button1 button {
+    background-color: #21BA45;
+    transition: opacity 0.3s ease;
+    ;
+}
+
+.button1 button:hover,
+.button2 button:hover {
+    opacity: 0.5;
+}
+
+.button2 button {
+    background-color: rgb(104, 20, 104);
+    transition: opacity 0.3s ease;
+    ;
+
+}
+
+.ri {
+    position: relative;
+    left: 5%;
+}
+
+.button_gh a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    font-family: var(--font-family);
+    text-transform: uppercase;
+}
+
+.slideshow_sp {
+    width: 1200px;
+    height: 200px;
+    background-color: red;
+    margin: 20px 0;
+}
+
+.mau_bonho {
+    width: 98%;
+    height: 100px;
+    justify-content: flex-start;
+    display: flex;
+}
+
+.bonho_sp {
+    width: 80px;
+    display: flex;
+
+    justify-content: start;
+    align-items: center;
+}
+
+.list_img img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.tt_sp span {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px 10px;
+}
+
+.giasp {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    font-size: 20px;
+}
+
+.giasp .giakm_sp {
+    color: red;
+    font-weight: bold;
+    margin-right: 10px;
+    font-size: 30px;
+}
+
+.giathat_sp {
+    text-decoration: line-through;
+
+
+}
+
+.tragop_sp {
+    text-align: center;
+    font-size: 20px;
+}
+
+.mau {
+    position: relative;
+    top: 50px;
+    right: 60px;
+    margin-top: 5px;
+    font-size: 20px;
+    font-weight: 500;
+
+}
+
+.dungluong_s {
+    display: flex;
+    border-radius: 8px;
+    background-color: #ECEFF1;
+    width: 98%;
+    margin: 15px 0;
+}
+
+.dungluong_s .GB {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 24%;
+    height: 50px;
+
+}
+
+.lineX {
+    height: 50px;
+    width: 1px;
+    background-color: #Ccc;
+}
+
+
+.GB:hover {
+    background-color: #a1a3a4;
+    border-radius: 8px;
+}
+
+.khuyenmai_sp {
+    margin: 5% 0;
+    width: 98%;
+    min-height: 300px;
+    border-radius: 5px;
+    background-color: #f7f7f7;
+}
+
+
+.khuyenmai_sp .Uudai {
+    margin: 10px 10px;
+}
+
+
+.Uudai1 .input {
+    display: inline-block;
+    margin: 10px 0;
+    font-size: 16px;
+    text-align: justify;
+}
+
+.txxt {
+    text-align: center;
+}
+
+.Uudai2 p {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+.Uudai2 i {
+    color: #21BA45;
+}
+
+.thongsokythuat {
+    margin: 3% 0;
+    width: 100%;
+    height: 150px;
+    border: 1px solid rgb(236, 232, 232);
+    background-color: #ECEFF1;
+    border-radius: 8px;
+}
+
+.thongso {
+    position: relative;
+    top: 40%;
+    transform: translateY(-50%);
+    font-size: 14px;
+    margin: 0px 10px;
+}
+
+.content_sp {
+    text-align: justify;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    background: #fff;
+    margin-top: 30px;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+#content {
+    max-height:680px;
+    overflow: hidden;
+    transition: max-height 0.5s ease;
+    width: 60%;
+    margin: 20px 5px;
+}
+
+#content>.Nd_sp {
+    width: 100%;
+    padding: 20px
+}
+
+#readMoreBtn {
+    cursor: pointer;
+    color: #746666;
+    border: 1px solid black;
+    width: 100px;
+    text-align: center;
+    line-height: 30px;
+    border-radius: 8px;
+    position: relative;
+    bottom: 48px;
+    left: 5px;
+    outline: none;
+    border: none;
+    background-color: #cccfd0;
+}
+
+#readMoreBtn:hover{
+    background: black;
+    color: #fff;
+}
+.Real_specifications {
+    width: 40%;
+}
+
+table {
+    width: 95%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+th,
+td {
+    padding: 12px;
+    text-align: left;
+    border: 1px solid #ddd;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+
+/* td:first-child {
+    ;
+} */
+
+/* Trang trí thêm */
+table {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    overflow: hidden;
+    margin-right: 20px;
+}
+
+th,
+td {
+    transition: background-color 0.3s;
+}
+
+th:hover,
+td:hover {
+    background-color: #f5f5f5;
+}
+
+/* Hiệu ứng hover cho bảng */
+
+th,
+td {
+    font-size: 16px;
+    font-family: 'Roboto', sans-serif;
+}
+
+/* Font chữ cho ô tiêu đề và ô dữ liệu */
+
+th {
+    letter-spacing: 1px;
+}
+
+/* Chữ in hoa và tăng khoảng cách giữa các ký tự */
+
+th:first-child,
+td:first-child {
+    border-left: none;
+}
+
+
+.DGCT .img_Sp{
+    text-align: center;
+    margin: 10px 0;
+}
+
+
+.cauhoithuonggap{
+    max-width: 1200px;
+    height: 230px;
+   background-color: #FFF;
+   border-radius: 8px;
+   box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+   padding: 0 20px;
+}
+
+/* .nd_ct{
+
+} */
+ 
+
+
+h3{
+    padding: 10px 40px;
+}
+
+.tieude{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 40px;
+    font-size: 20px;
+    font-weight: 700;
+    color: black;
+    background-color: #Ccc;
+    cursor: pointer;
+   
+}
+
+.nd_ct .content_p{
+    font-size: 16px;
+    padding: 10px 30px;
+    text-align: justify;
+    display: none;
+    background-color: #c6c7c8;
+}
+
+.nd_ct.actives .tieude{
+    background-color: #ECEFF1;
+}
+
+.add{
+    transition:all 10s ease-in;
+}
+
+/* .binhluansp{
+    max-width: 1200px;
+    height: auto;
+    background-color: #fff;
+    margin: 40px 0;
+}
+
+.Tb_dg{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+    position: relative;
+    left: 4%;
+}
+
+.dgsp3{
+    text-align: center;
+}
+.dgsp3 p{
+    font-size: 16px;
+    color: black;
+    padding-bottom: 20px;
+}
+
+.dgsp3 button{
+    width: 150px;
+    line-height: 40px;
+    outline: none;
+    border: none;
+    background-color: red;
+    color: #fff;
+    border-radius: 10px;
+}
+
+.dgsp2 .dg2{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin: 0 10px;
+}
+
+.dg1{
+    text-align: center;
+   position: relative;
+   right: 80px;
+} */
+
+.hoidap{
+    width: 1200px;
+    height: auto;
+    background-color: #fff;
+    margin: 20px 0px;
+}
+
+h2{
+    padding: 10px 20px;
+}
+.nhapbinhluan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nhapbinhluan .input{
+    width: 1200px;
+    margin: 0 auto;
+    height: 60px;
+    outline: none;
+    border: none;
+    border-radius: 10px;
+    background-color: #f7f7f7;
+    position: relative;
+    left: 5%;
+    margin: 10px 0;
+    margin-bottom: 20px;
+}
+
+.nhapbinhluan .submit{
+    position: relative;
+    width: 120px;
+    height: 40px;
+    outline: none;
+    border: none;
+    background-color: red;
+    color: #fff;
+    border-radius: 8px;
+    right: 6%;
+}
+
+.tsl{
+    width: 1200px;
+    height: 40px;
+    background-color: #ccc;
+}
+
+.hienthibinhluan{
+    display: flex;
+    flex-direction: column;
+   justify-content:flex-start;
+   align-items: flex-start;
+   margin: 20px 20px;
+}
+
+.name{
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    background-color: #ccc;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-right: 20px;
+   
+}
+.name p{
+    font-size: 10px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.ngaybl{
+    margin: 10px 0;
+}
+
+.nd_bl{
+    position: relative;
+    left: 7%;
+    bottom: 50px;
+}
+
+.cmt{
+    height: 300px;
+}
